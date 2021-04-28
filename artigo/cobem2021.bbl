@@ -1,0 +1,95 @@
+\begin{thebibliography}{13}
+\newcommand{\enquote}[1]{``#1''}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+
+\bibitem[{Babuska(1971)}]{babuska1971}
+Babuska, I., 1971.
+\newblock \enquote{Error bounds for finite element method}.
+\newblock \emph{Numerische Mathematik}.
+
+\bibitem[{Barquera \emph{et~al.}(2015)Barquera, Tobias, Medina, Barrera,
+  Domingo, Lozano and Moran}]{atherosclerosis}
+Barquera, S., Tobias, A.P., Medina, C., Barrera, L.H., Domingo, K.B., Lozano,
+  R. and Moran, A.E., 2015.
+\newblock \enquote{Global overview of the epidemiology of atherosclerotic
+  cardiovascular disease}.
+\newblock \emph{Archives of Medical Research}, Vol.~46, No.~5, pp. 328 -- 338.
+
+\bibitem[{Benjamin \emph{et~al.}(2018)Benjamin, Virani and Callaway}]{chd2018}
+Benjamin, E.J., Virani, S.S. and Callaway, C.W., 2018.
+\newblock \enquote{Heart disease and stroke statistics 2018 update: A report
+  from the american heart association}.
+\newblock \emph{Circulation}, Vol. 137, No.~12.
+
+\bibitem[{Bozsak \emph{et~al.}(2014)Bozsak, J-M. and Barakat}]{bozsak2014}
+Bozsak, F., J-M., C. and Barakat, A., 2014.
+\newblock \enquote{Modeling the transport of drugs eluted from stents: physical
+  phenomena driving drug distribution in the arterial wall}.
+\newblock \emph{Biomech Model Mechanobiol}, Vol.~13, pp. 327--347.
+\newblock \doi{10.1007/s10237-013-0546-4}.
+
+\bibitem[{Brezzi(1974)}]{brezzi1974}
+Brezzi, F., 1974.
+\newblock \enquote{On the existence, uniqueness and approximation of
+  saddle-point problems arising from lagrange multipliers}.
+\newblock \emph{Revue française d'automatique, informatique, recherche
+  opérationnelle. Analyse numérique.}
+
+\bibitem[{Cowper(1973)}]{cowper1973}
+Cowper, G., 1973.
+\newblock \enquote{Gaussian quadrature formulas for triangles}.
+\newblock \emph{International Journal for Numerical Methods in Engineering},
+  Vol.~7, No.~3, pp. 405--408.
+
+\bibitem[{Henderson(2007)}]{paraview}
+Henderson, A., 2007.
+\newblock \enquote{Paraview guide, a parallel visualization application}.
+\newblock \emph{Kitware Inc.}
+
+\bibitem[{Kessler \emph{et~al.}(1998)Kessler, Moshage, Galland, Zink,
+  Achenbach, Nitz, Laub and Bachmann}]{kessler1998}
+Kessler, W., Moshage, W., Galland, A., Zink, D., Achenbach, S., Nitz, W., Laub,
+  G. and Bachmann, K., 1998.
+\newblock \enquote{Assessment of coronary blood flow in humans using phase
+  difference mr imaging comparison with intracoronary doppler flow
+  measurement.}
+\newblock \emph{International Journal of Cardiac Imaging}.
+
+\bibitem[{Pironneau(1982)}]{pironneau1982}
+Pironneau, O., 1982.
+\newblock \enquote{On the transport-diffusion algorithm and its applications to
+  the navier-stokes equation}.
+\newblock \emph{Numerische Mathematik}.
+
+\bibitem[{Robert(1981)}]{robert1981}
+Robert, A., 1981.
+\newblock \enquote{A stable numerical integration scheme for the primitive
+  meteorological equations}.
+\newblock \emph{Atmosphere Oceans}, Vol.~19, pp. 35--46.
+
+\bibitem[{Sawyer(1963)}]{sawyer1963}
+Sawyer, J., 1963.
+\newblock \enquote{A semi-lagrangian method of solving the vorticity advection
+  equation}.
+\newblock \emph{Tellus}, Vol.~15, pp. 336--342.
+
+\bibitem[{Wang \emph{et~al.}(2017)Wang, McGinty, Lucena, Pontes, Anjos and
+  Mangiavacchi}]{wang2017}
+Wang, H., McGinty, S., Lucena, R., Pontes, J., Anjos, G. and Mangiavacchi, N.,
+  2017.
+\newblock \enquote{Dynamics of blood flow in coronary artery}.
+\newblock \emph{International Congress of Mechanical Engineering}.
+
+\bibitem[{World Health~Organization(2017)}]{oms2017}
+World Health~Organization, W., 2017.
+\newblock \enquote{Cardiovascular diseases}.
+\newblock \urlprefix\url{"www.who.int/cardiovascular\_diseases/en/"}.
+\newblock [Online; accessed 03/05/2018 11:55].
+
+\end{thebibliography}

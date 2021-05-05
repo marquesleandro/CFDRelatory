@@ -43,7 +43,7 @@ Arbitrary Lagrangian-Eulerian (ALE) description.
 The dynamics of drug-eluting concentration in
 bloodstream was investigated using 
 the drug-eluting stent
-in microchannels with with atherosclerosis.
+in microchannels with atherosclerosis.
 The results reveal the possibility of other simulations
 using complex geometries.
 }
@@ -56,7 +56,7 @@ using complex geometries.
 
 \section{INTRODUCTION}
 
-According to the World Health Organization (WHO) \cite{oms2018},
+According to the \cite{oms2018},
 cardiovascular diseases have remained the leading
 death causes globally in the last 15 years. 
 It is estimated that \mbox{15.2 million} people died from CVD in 2016,
@@ -64,24 +64,24 @@ representing 26.7\% of all deaths in the world.
 In Brazil, about 38\% of deaths due to CVD is in the procutive age range
 (18 to 65 years) and the estimated
 costs of CVD were R\$ 37.1 billion
-in 2015, that is, 0.7\% GDP \cite{siqueira2017}.
+in 2015, that is, 0.7\% GDP \citep{siqueira2017}.
 About 60\% of CVD deaths
 occurred due to coronary artery disease (CAD).
 The main cause of CAD is the atherosclerosis which consists of
 the accumulation of fat plaques inside the artery wall causing
 a decrease in lumen diameter.
 The Atherosclerosis can be prevented with a change in harmful habits
-such as: cigarette smoking, physical inactivity/low fitness and poor dietary habits \cite{spring2013}.
+such as: cigarette smoking, physical inactivity/low fitness and poor dietary habits \citep{spring2013}.
 For a corrective approach, however, two treatments can be performed:
 the \textit{Coronary Artery Bypass Graft} (CABG) or a 
 procedure minimally invasive called 
 \textit{Percutaneous Transluminal Coronary Angioplasty} (PTCA)
-\cite{gruntzig1979},
+\citep{gruntzig1979},
 where a wire tube (\textit{stent}) is placed.
 
 \smallskip
 In 2001,
-Hwang, Wu and Edelman \cite{hwang2001} presented
+\citeauthor{hwang2001} presented
 a numerical simulation in a coronary artery, 
 where the stent strut 
 was coated with the drug.
@@ -90,8 +90,8 @@ for the treatment of atherosclerosis and reestonosis.
 This new type of stent
 would be known as \textit{drug-eluting stent}.
 In the following years,
-\mbox{Zunino et al. \cite{zunino2009}} presented 
-in 2009 a complete overview
+\cite{zunino2009} presented 
+a complete overview
 of mathematical models and finite element numerical simulation
 applied to the  modeling of drug eluting stens and
 of their interaction with
@@ -104,7 +104,7 @@ does not significantly contribute to the permanent drug
 deposition into the arterial wall and only an small fraction of
 the total amount drug stored into the stent was effectively
 delivered to the artery.
-In 2018, Lucena et al. \cite{lucena2018} presented
+In 2018, \citeauthor{lucena2018} presented
 the simulation of the transport of the drug \textit{sirolimus}
  on the wall of an artery modeled as a porous and anisotropic medium.
  The authors estimated that
@@ -114,7 +114,7 @@ the simulation of the transport of the drug \textit{sirolimus}
 the artery wall. Thus, such results are susceptible to the
  patient health conditions.
 In the following years,
-Marques and Anjos \cite{marques2021} presented the
+\cite{marques2021} presented the
 a numerical study on the drug diffusion in the bloodstream
 in a coronary artery with drug-eluting stent implanted,
 using the streamfunction-vorticity formulation.
@@ -153,7 +153,7 @@ GMSH open source software,
 where the triangular element with linear interpolation
 was used for pressure field and with cubic interpolation
 was used for velocity and concentration fields.
-Therefore, the Babuska-Brezzi \cite{babuska1971}\cite{brezzi1974} 
+Therefore, the \citeauthor{babuska1971}-\citeauthor{brezzi1974} 
 was
 satisfied. 
 The equations were discretized in spatial domain using the Galerkin formulation
@@ -279,7 +279,7 @@ GMSH open source software,
 where the triangular element with linear interpolation
 was used for pressure field and with cubic interpolation
 was used for velocity and concentration fields.
-Therefore, the Babuska-Brezzi \cite{babuska1971}\cite{brezzi1974} 
+Therefore, the \citeauthor{babuska1971}-\citeauthor{brezzi1974} 
 was
 satisfied. 
 The equations were discretized in spatial domain using the Galerkin formulation.
@@ -323,8 +323,8 @@ the drug concentration field $e$ field
 are discretized in the spatial domain but
 continuos in the temporal domain.
 Then, for time discretization, the semi-Lagrangian Method was used. 
-This method was proposed by Sawyer in 1963 \cite{sawyer1963} for atmospheric flow numerical simulation using vorticity-advection equation, allowing to use large time steps without numerical instability. 
-However, because of a limited computer capability, the use of such methodology to model several fluid flow problems, with high order differences and fine mesh, came later in the 1980s through the work of Robert \cite{robert1981} and Pironneu \cite{pironneau1982}, where the semi-lagrangian scheme would be able to run models faster than the Eulerian scheme, besides being unconditionally stable and only symmetric linear systems to solve. 
+This method was proposed by \citeauthor{sawyer1963} in 1963 for atmospheric flow numerical simulation using vorticity-advection equation, allowing to use large time steps without numerical instability. 
+However, because of a limited computer capability, the use of such methodology to model several fluid flow problems, with high order differences and fine mesh, came later in the 1980s through the work of \cite{robert1981} and \cite{pironneau1982}, where the semi-lagrangian scheme would be able to run models faster than the Eulerian scheme, besides being unconditionally stable and only symmetric linear systems to solve. 
 Therefore the semi-lagrangian method discretized and 
 computed the material derivative along the trajectory 
 
@@ -512,13 +512,13 @@ The triangular element with linear interpolation was used
 for the pressure field and a modified cubic element 
 (2D MINI) was used
 for the velocity field, 
-in order to respect the Babuska-Brezzi restriction
-\cite{babuska1971}\cite{brezzi1974}.
+in order to respect the
+\citeauthor{babuska1971}-\citeauthor{brezzi1974} restriction.
 These elements consists in three nodes in the vertices
 and one node in the baricentric for MINI element case.
 The elementary matrices of 
 this element are calculated using the Gaussian Quadrature, 
-whose parameters can be found in the literature \cite{cowper1973}. 
+whose parameters can be found in the literature \citep{cowper1973}. 
 \hl{This element is represented by the Figure} \ref{fig:element},
 \noindent
 where
@@ -704,18 +704,179 @@ due to the atherosclerosis.
 Whereas for the vertical velocity component, 
 the drug-eluting stent implantation makes the blood is initially directed downwards and changes the direction close to the end
 of channel.
+The maximum dimensionless horizontal
+velocity for the Curved Channel with Stent is 
+$u=3.23$.
+Conveting to dimensional values, the maximum horizontal
+velocity assumes $u = 38.8 cm/s$, that is, 
+more than 3 times the blood velocity in coronary 
+artery without atherosclerosis and
+drug-eluting stent implanted.
+This increase can influence the dynamics of blood flow
+and its biological processes; therefore, a more detailed analysis should be performed. In
+addition, it is also possible to observe an inversion of the horizontal velocity field direction
+at the top of the figure. This inversion occurs in the region that is located between the stents
+strut semi-circles and a possible coagulation should be checked.
+
+
+\begin{figure}[H]
+\widefigure
+     \begin{minipage}{.45\linewidth}
+      \centering
+      \includegraphics[scale=0.17]{./figure/conc1_StraightStrut8.png}\\
+      t = 210ms
+     \end{minipage}%
+     \begin{minipage}{.45\linewidth}
+      \centering
+      \includegraphics[scale=0.17]{./figure/conc10_StraightStrut8.png}\\
+      t = 210ms
+     \end{minipage}
+     \begin{minipage}{.45\linewidth}
+     \medskip
+      \centering
+      \includegraphics[scale=0.17]{./figure/conc1_CurvedStrut8.png}\\
+      t = 310ms
+     \end{minipage}%
+     \begin{minipage}{.45\linewidth}
+     \medskip
+      \centering
+      \includegraphics[scale=0.17]{./figure/conc10_CurvedStrut8.png}\\
+      t = 310ms
+     \end{minipage}
+     \begin{minipage}{.45\linewidth}
+      \centering
+      \includegraphics[scale=0.17]{./figure/conc1_RealStrut8.png}\\
+      t = 385ms
+     \end{minipage}%
+     \begin{minipage}{.45\linewidth}
+      \centering
+      \includegraphics[scale=0.17]{./figure/conc10_RealStrut8.png}\\
+      t = 385ms
+     \end{minipage}
+     \caption{
+The spatial and temporal distribution 
+of the blood horizontal (left
+column) and vertical (right column) velocities for
+several time steps. 
+The red color refers the maximum value and 
+the blue color refers the minimum value.
+The maximum dimensionless horizontal
+velocity for the Curved Channel with Stent is 
+more than 3 times the blood velocity in coronary 
+artery without atherosclerosis and
+drug-eluting stent implanted.
+}\label{velocity}
+\end{figure}
+
+
+
+
+
+
+
+\smallskip
+Figure \ref{concentration} presents the spatial and 
+temporal distribution of the blood horizontal (left
+column) and vertical (right column) velocities for
+the several time steps. 
+the red color represents 100\% and 
+the blue color represents 0\% of the diffused concentration
+in the bloodstream. Is possible to observe that
+the concentration diffusion acquires the steady state about
+$210$ milliseconds. In addition, a large portion of
+the diffused drug in bloodstream is quickly spread and
+the concentration field is more dispersed at the end
+of the channel due to the direction of the blood flow.
+This diffusion affects the density and viscosity of
+the blood and consequently the Reynolds number is changed. 
+Therefore, the velocity field would also br affected. However,
+this influence is not considered in this work.
+
+\begin{figure}[H]
+\widefigure
+     \begin{minipage}{.45\linewidth}
+      \centering
+      \includegraphics[scale=0.17]{./figure/conc1_StraightStrut8.png}\\
+      t = 210ms
+     \end{minipage}%
+     \begin{minipage}{.45\linewidth}
+      \centering
+      \includegraphics[scale=0.17]{./figure/conc10_StraightStrut8.png}\\
+      t = 310ms
+     \end{minipage}
+     \begin{minipage}{.45\linewidth}
+     \medskip
+      \centering
+      \includegraphics[scale=0.17]{./figure/conc1_CurvedStrut8.png}\\
+      t = 275ms
+     \end{minipage}%
+     \begin{minipage}{.45\linewidth}
+     \medskip
+      \centering
+      \includegraphics[scale=0.17]{./figure/conc10_CurvedStrut8.png}\\
+      t = 358ms
+     \end{minipage}
+     \begin{minipage}{.45\linewidth}
+      \centering
+      \includegraphics[scale=0.17]{./figure/conc1_RealStrut8.png}\\
+      t = 286ms
+     \end{minipage}%
+     \begin{minipage}{.45\linewidth}
+      \centering
+      \includegraphics[scale=0.17]{./figure/conc10_RealStrut8.png}\\
+      t = 385ms
+     \end{minipage}
+     \caption{
+The spatial and temporal distribution of the concentration diffusion
+using the $Sc=1$ 
+drug coefficients for
+the Curved channel 
+with the drug-eluting stent.
+Is possible to observe that
+the concentration diffusion acquires the steady state about
+$210$ milliseconds. 
+A large portion of
+the diffused drug in bloodstream is quickly spread and
+the concentration field is more dispersed at the end
+of the channel due to the direction of the blood flow.
+}\label{concentration}
+\end{figure}
 
 
 
 
 
 \section{PRELIMINARY CONCLUSION}
-In this work, a numerial code for Navier-Stokes equation according to 
-with species
-transport equation was developed using an FE approach.
-The semi-Lagrangian scheme was used to discretized the material derivative
-using first order backward difference scheme and the numerical oscillations
-were not seen for moderate to high Schmidt number.
+In this work, the finite element simulation using 
+the Navier-Stokes equations with high 
+order elements to compute biological flows found 
+in coronary artery diseases
+was performed. The dynamics of concentration 
+diffusion in coronary arteries requires a
+robust numerical method to compute the solution 
+of the differential equations in a relevant
+model specially due to the presence of the thin 
+drug concentration boundary layer that
+must be accurately captured. 
+
+\smallskip
+The domain was discretized on an unstructured 
+mesh using the GMSH
+open source software, where the triangular element 
+with linear interpolation was used for pressure field and with cubic
+interpolation was used for velocity and concentration fields.
+Therefore, the Babuska-Brezzi restriction was satisfied.
+The equations were discretized in spatial domain 
+using the Galerkin formulation and 
+for time discretization, the semi-Lagrangian Method was used.
+
+\smallskip
+According to the 
+results presented, 
+the numerical code developed proved 
+to be able to perform simulations in
+complex geometries such as those found in problems 
+involving cardiovascular diseases.
 
 \smallskip
 %The dynamics of blood flow was shown to a coronary artery with atherosclerosis and
@@ -731,7 +892,8 @@ were not seen for moderate to high Schmidt number.
 
 
 \section{ACKNOWLEDGEMENTS}
-This optional section must be placed before the list of references.
+The author thank the Ph.D. Gustavo Rabello dos Anjos 
+for its academic support.
 
 \section{REFERENCES} 
 \label{Sec:references}

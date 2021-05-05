@@ -723,36 +723,36 @@ strut semi-circles and a possible coagulation should be checked.
 \widefigure
      \begin{minipage}{.45\linewidth}
       \centering
-      \includegraphics[scale=0.17]{./figure/conc1_StraightStrut8.png}\\
+      \includegraphics[scale=0.17]{./figure/horizontalVelocity1.png}\\
       t = 210ms
      \end{minipage}%
      \begin{minipage}{.45\linewidth}
       \centering
-      \includegraphics[scale=0.17]{./figure/conc10_StraightStrut8.png}\\
+      \includegraphics[scale=0.17]{./figure/verticalVelocity1.png}\\
       t = 210ms
      \end{minipage}
      \begin{minipage}{.45\linewidth}
      \medskip
       \centering
-      \includegraphics[scale=0.17]{./figure/conc1_CurvedStrut8.png}\\
+      \includegraphics[scale=0.17]{./figure/horizontalVelocity2.png}\\
       t = 310ms
      \end{minipage}%
      \begin{minipage}{.45\linewidth}
      \medskip
       \centering
-      \includegraphics[scale=0.17]{./figure/conc10_CurvedStrut8.png}\\
+      \includegraphics[scale=0.17]{./figure/verticalVelocity2.png}\\
       t = 310ms
      \end{minipage}
      \begin{minipage}{.45\linewidth}
       \centering
-      \includegraphics[scale=0.17]{./figure/conc1_RealStrut8.png}\\
+      \includegraphics[scale=0.17]{./figure/horizontalVelocity3.png}\\
       t = 385ms
      \end{minipage}%
      \begin{minipage}{.45\linewidth}
       \centering
-      \includegraphics[scale=0.17]{./figure/conc10_RealStrut8.png}\\
+      \includegraphics[scale=0.17]{./figure/verticalVelocity3.png}\\
       t = 385ms
-     \end{minipage}
+     \end{minipage}\\[0.3cm]
      \caption{
 The spatial and temporal distribution 
 of the blood horizontal (left
@@ -776,9 +776,11 @@ drug-eluting stent implanted.
 
 \smallskip
 Figure \ref{concentration} presents the spatial and 
-temporal distribution of the blood horizontal (left
-column) and vertical (right column) velocities for
-the several time steps. 
+temporal distribution of the pressure (left
+column) and concentration (right column) fields for
+several time steps. The red color refers the maximum value and 
+the blue color refers the minimum value.
+For the concentration field, 
 the red color represents 100\% and 
 the blue color represents 0\% of the diffused concentration
 in the bloodstream. Is possible to observe that
@@ -791,41 +793,46 @@ This diffusion affects the density and viscosity of
 the blood and consequently the Reynolds number is changed. 
 Therefore, the velocity field would also br affected. However,
 this influence is not considered in this work.
+For the pressure field, is possible to observe a
+decrease valeu close to central channel. This
+decrease region causes a recirculation phenomena
+and a possible coagulation should be checked.
+
 
 \begin{figure}[H]
 \widefigure
      \begin{minipage}{.45\linewidth}
       \centering
-      \includegraphics[scale=0.17]{./figure/conc1_StraightStrut8.png}\\
+      \includegraphics[scale=0.17]{./figure/pressure1.png}\\
       t = 210ms
      \end{minipage}%
      \begin{minipage}{.45\linewidth}
       \centering
-      \includegraphics[scale=0.17]{./figure/conc10_StraightStrut8.png}\\
+      \includegraphics[scale=0.17]{./figure/concentration1.png}\\
+      t = 210ms
+     \end{minipage}
+     \begin{minipage}{.45\linewidth}
+     \medskip
+      \centering
+      \includegraphics[scale=0.17]{./figure/pressure2.png}\\
+      t = 310ms
+     \end{minipage}%
+     \begin{minipage}{.45\linewidth}
+     \medskip
+      \centering
+      \includegraphics[scale=0.17]{./figure/concentration2.png}\\
       t = 310ms
      \end{minipage}
      \begin{minipage}{.45\linewidth}
-     \medskip
       \centering
-      \includegraphics[scale=0.17]{./figure/conc1_CurvedStrut8.png}\\
-      t = 275ms
-     \end{minipage}%
-     \begin{minipage}{.45\linewidth}
-     \medskip
-      \centering
-      \includegraphics[scale=0.17]{./figure/conc10_CurvedStrut8.png}\\
-      t = 358ms
-     \end{minipage}
-     \begin{minipage}{.45\linewidth}
-      \centering
-      \includegraphics[scale=0.17]{./figure/conc1_RealStrut8.png}\\
-      t = 286ms
-     \end{minipage}%
-     \begin{minipage}{.45\linewidth}
-      \centering
-      \includegraphics[scale=0.17]{./figure/conc10_RealStrut8.png}\\
+      \includegraphics[scale=0.17]{./figure/pressure3.png}\\
       t = 385ms
-     \end{minipage}
+     \end{minipage}%
+     \begin{minipage}{.45\linewidth}
+      \centering
+      \includegraphics[scale=0.17]{./figure/concentration3.png}\\
+      t = 385ms
+     \end{minipage}\\[0.3cm]
      \caption{
 The spatial and temporal distribution of the concentration diffusion
 using the $Sc=1$ 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.6.22)  4 MAY 2021 23:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.6.22)  5 MAY 2021 00:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -831,101 +831,42 @@ Package pdftex.def Info: ./figure/CurvedStrut.png  used on input line 678.
 l.723 \widefigure
                  
 ? 
-
-LaTeX Warning: File `./figure/conc1_StraightStrut8.png' not found on input line
- 726.
-
-
-! Package pdftex.def Error: File `./figure/conc1_StraightStrut8.png' not found:
- using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.726 ...=0.17]{./figure/conc1_StraightStrut8.png}
-                                                  \\
-? 
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 726.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-
-LaTeX Warning: File `./figure/conc10_StraightStrut8.png' not found on input lin
-e 731.
-
-
-! Package pdftex.def Error: File `./figure/conc10_StraightStrut8.png' not found
-: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.731 ...0.17]{./figure/conc10_StraightStrut8.png}
-                                                  \\
-? 
-
-LaTeX Warning: File `./figure/conc1_CurvedStrut8.png' not found on input line 7
-37.
-
-
-! Package pdftex.def Error: File `./figure/conc1_CurvedStrut8.png' not found: u
-sing draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.737 ...le=0.17]{./figure/conc1_CurvedStrut8.png}
-                                                  \\
-? 
-
-LaTeX Warning: File `./figure/conc10_CurvedStrut8.png' not found on input line 
-743.
-
-
-! Package pdftex.def Error: File `./figure/conc10_CurvedStrut8.png' not found: 
-using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.743 ...e=0.17]{./figure/conc10_CurvedStrut8.png}
-                                                  \\
-? 
-
-LaTeX Warning: File `./figure/conc1_RealStrut8.png' not found on input line 748
+<./figure/horizontalVelocity1.png, id=39, 1221.56375pt x 131.49126pt>
+File: ./figure/horizontalVelocity1.png Graphic file (type png)
+<use ./figure/horizontalVelocity1.png>
+Package pdftex.def Info: ./figure/horizontalVelocity1.png  used on input line 7
+26.
+(pdftex.def)             Requested size: 207.66309pt x 22.35321pt.
+<./figure/verticalVelocity1.png, id=40, 1220.56pt x 132.495pt>
+File: ./figure/verticalVelocity1.png Graphic file (type png)
+<use ./figure/verticalVelocity1.png>
+Package pdftex.def Info: ./figure/verticalVelocity1.png  used on input line 731
 .
-
-
-! Package pdftex.def Error: File `./figure/conc1_RealStrut8.png' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.748 ...cale=0.17]{./figure/conc1_RealStrut8.png}
-                                                  \\
-? 
-
-LaTeX Warning: File `./figure/conc10_RealStrut8.png' not found on input line 75
-3.
-
-
-! Package pdftex.def Error: File `./figure/conc10_RealStrut8.png' not found: us
-ing draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.753 ...ale=0.17]{./figure/conc10_RealStrut8.png}
-                                                  \\
-? 
+(pdftex.def)             Requested size: 207.49245pt x 22.52385pt.
+<./figure/horizontalVelocity2.png, id=41, 1220.56pt x 131.49126pt>
+File: ./figure/horizontalVelocity2.png Graphic file (type png)
+<use ./figure/horizontalVelocity2.png>
+Package pdftex.def Info: ./figure/horizontalVelocity2.png  used on input line 7
+37.
+(pdftex.def)             Requested size: 207.49245pt x 22.35321pt.
+<./figure/verticalVelocity2.png, id=42, 1220.56pt x 131.49126pt>
+File: ./figure/verticalVelocity2.png Graphic file (type png)
+<use ./figure/verticalVelocity2.png>
+Package pdftex.def Info: ./figure/verticalVelocity2.png  used on input line 743
+.
+(pdftex.def)             Requested size: 207.49245pt x 22.35321pt.
+<./figure/horizontalVelocity3.png, id=43, 1219.55624pt x 129.48375pt>
+File: ./figure/horizontalVelocity3.png Graphic file (type png)
+<use ./figure/horizontalVelocity3.png>
+Package pdftex.def Info: ./figure/horizontalVelocity3.png  used on input line 7
+48.
+(pdftex.def)             Requested size: 207.32181pt x 22.01193pt.
+<./figure/verticalVelocity3.png, id=44, 1220.56pt x 131.49126pt>
+File: ./figure/verticalVelocity3.png Graphic file (type png)
+<use ./figure/verticalVelocity3.png>
+Package pdftex.def Info: ./figure/verticalVelocity3.png  used on input line 753
+.
+(pdftex.def)             Requested size: 207.49245pt x 22.35321pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 724--768
 []$[]$$[]$
@@ -934,113 +875,67 @@ Underfull \hbox (badness 10000) in paragraph at lines 724--768
 
 Underfull \hbox (badness 10000) in paragraph at lines 724--768
 []$$[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 724--768
+
  []
 
 ! Undefined control sequence.
-l.796 \widefigure
+l.803 \widefigure
                  
 ? 
+<./figure/pressure1.png, id=45, 1219.55624pt x 131.49126pt>
+File: ./figure/pressure1.png Graphic file (type png)
+<use ./figure/pressure1.png>
+Package pdftex.def Info: ./figure/pressure1.png  used on input line 806.
+(pdftex.def)             Requested size: 207.32181pt x 22.35321pt.
+<./figure/concentration1.png, id=46, 1218.5525pt x 130.4875pt>
+File: ./figure/concentration1.png Graphic file (type png)
+<use ./figure/concentration1.png>
+Package pdftex.def Info: ./figure/concentration1.png  used on input line 811.
+(pdftex.def)             Requested size: 207.15118pt x 22.18257pt.
+<./figure/pressure2.png, id=47, 1221.56375pt x 132.495pt>
+File: ./figure/pressure2.png Graphic file (type png)
+<use ./figure/pressure2.png>
+Package pdftex.def Info: ./figure/pressure2.png  used on input line 817.
+(pdftex.def)             Requested size: 207.66309pt x 22.52385pt.
+<./figure/concentration2.png, id=48, 1220.56pt x 129.48375pt>
+File: ./figure/concentration2.png Graphic file (type png)
+<use ./figure/concentration2.png>
+Package pdftex.def Info: ./figure/concentration2.png  used on input line 823.
+(pdftex.def)             Requested size: 207.49245pt x 22.01193pt.
+<./figure/pressure3.png, id=49, 1220.56pt x 131.49126pt>
+File: ./figure/pressure3.png Graphic file (type png)
+<use ./figure/pressure3.png>
+Package pdftex.def Info: ./figure/pressure3.png  used on input line 828.
+(pdftex.def)             Requested size: 207.49245pt x 22.35321pt.
+<./figure/concentration3.png, id=50, 1219.55624pt x 140.525pt>
+File: ./figure/concentration3.png Graphic file (type png)
+<use ./figure/concentration3.png>
+Package pdftex.def Info: ./figure/concentration3.png  used on input line 833.
+(pdftex.def)             Requested size: 207.32181pt x 23.88893pt.
 
-LaTeX Warning: File `./figure/conc1_StraightStrut8.png' not found on input line
- 799.
-
-
-! Package pdftex.def Error: File `./figure/conc1_StraightStrut8.png' not found:
- using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.799 ...=0.17]{./figure/conc1_StraightStrut8.png}
-                                                  \\
-? 
-
-LaTeX Warning: File `./figure/conc10_StraightStrut8.png' not found on input lin
-e 804.
-
-
-! Package pdftex.def Error: File `./figure/conc10_StraightStrut8.png' not found
-: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.804 ...0.17]{./figure/conc10_StraightStrut8.png}
-                                                  \\
-? 
-
-LaTeX Warning: File `./figure/conc1_CurvedStrut8.png' not found on input line 8
-10.
-
-
-! Package pdftex.def Error: File `./figure/conc1_CurvedStrut8.png' not found: u
-sing draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.810 ...le=0.17]{./figure/conc1_CurvedStrut8.png}
-                                                  \\
-? 
-
-LaTeX Warning: File `./figure/conc10_CurvedStrut8.png' not found on input line 
-816.
-
-
-! Package pdftex.def Error: File `./figure/conc10_CurvedStrut8.png' not found: 
-using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.816 ...e=0.17]{./figure/conc10_CurvedStrut8.png}
-                                                  \\
-? 
-
-LaTeX Warning: File `./figure/conc1_RealStrut8.png' not found on input line 821
-.
-
-
-! Package pdftex.def Error: File `./figure/conc1_RealStrut8.png' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.821 ...cale=0.17]{./figure/conc1_RealStrut8.png}
-                                                  \\
-? 
-
-LaTeX Warning: File `./figure/conc10_RealStrut8.png' not found on input line 82
-6.
-
-
-! Package pdftex.def Error: File `./figure/conc10_RealStrut8.png' not found: us
-ing draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.826 ...ale=0.17]{./figure/conc10_RealStrut8.png}
-                                                  \\
-? 
-
-Underfull \hbox (badness 10000) in paragraph at lines 797--842
+Underfull \hbox (badness 10000) in paragraph at lines 804--849
 []$[]$$[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 797--842
+Underfull \hbox (badness 10000) in paragraph at lines 804--849
 []$$[]$
  []
 
-[5] (./cobem2021.bbl
+
+Underfull \hbox (badness 10000) in paragraph at lines 804--849
+
+ []
+
+[5 <./figure/horizontalVelocity1.png> <./figure/verticalVelocity1.png> <./figur
+e/horizontalVelocity2.png> <./figure/verticalVelocity2.png> <./figure/horizonta
+lVelocity3.png> <./figure/verticalVelocity3.png> <./figure/pressure1.png> <./fi
+gure/concentration1.png> <./figure/pressure2.png> <./figure/concentration2.png>
+ <./figure/pressure3.png> <./figure/concentration3.png>] (./cobem2021.bbl
 Underfull \hbox (badness 1009) in paragraph at lines 108--113
 []\T1/ptm/m/n/10 World Health Or-ga-ni-za-tion (WHO), W., 2018.  ``The top 10 c
 auses of death''.  \T1/ptm/m/it/10 www.who.int/news-room/fact-
@@ -1052,35 +947,33 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 17302 strings out of 492982
- 355265 string characters out of 6134896
- 461255 words of memory out of 5000000
- 20471 multiletter control sequences out of 15000+600000
- 50805 words of font info for 59 fonts, out of 8000000 for 9000
+ 17337 strings out of 492982
+ 356338 string characters out of 6134896
+ 461253 words of memory out of 5000000
+ 20504 multiletter control sequences out of 15000+600000
+ 50492 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,12n,69p,561b,729s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texliv
-e/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf/fonts/type1/public/cm-s
-uper/sftt1000.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8
-a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/urw/times/utmri8a.pfb>
-Output written on cobem2021.pdf (6 pages, 257686 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/t
+imes/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on cobem2021.pdf (6 pages, 568200 bytes).
 PDF statistics:
- 104 PDF objects out of 1000 (max. 8388607)
- 74 compressed objects within 1 object stream
+ 123 PDF objects out of 1000 (max. 8388607)
+ 70 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 83 words of extra memory for PDF output out of 10000 (max. 10000000)
 
